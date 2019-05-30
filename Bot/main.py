@@ -5,7 +5,7 @@ from random import randint
 import time
 import Captcha
 
-mydb = mysql.connector.connect(user='root', password='hamedfarahi9223',
+mydb = mysql.connector.connect(user='root', password='********',
                               host='127.0.0.1', database='university',
                               auth_plugin ='mysql_native_password')
 mycursor = mydb.cursor()
